@@ -1,0 +1,36 @@
+{
+  "name": "delete-earlier-files",
+  "version": "1.0.0",
+  "description": "Deletes files in a specified directory when they no longer have a current timestamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanDavison/delete-earlier-files.git"
+  },
+  "keywords": [
+    "delete",
+    "files",
+    "fs",
+    "timestamp",
+    "current",
+    "cleanup",
+    "maintenance",
+    "directories"
+  ],
+  "author": "Ryan Davison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanDavison/delete-earlier-files/issues"
+  },
+  "homepage": "https://github.com/RyanDavison/delete-earlier-files#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
