@@ -4,7 +4,7 @@
   "description": "Deletes files in a specified directory when they no longer have a current timestamp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test ./test/"
   },
   "repository": {
     "type": "git",
